@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDC327EE16AFB8F1001B11B5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDC327ED16AFB8F1001B11B5 /* UIKit.framework */; };
+		EDC327F016AFB8F1001B11B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDC327EF16AFB8F1001B11B5 /* Foundation.framework */; };
+		EDC327F216AFB8F1001B11B5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDC327F116AFB8F1001B11B5 /* CoreGraphics.framework */; };
+		EDC327F816AFB8F1001B11B5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EDC327F616AFB8F1001B11B5 /* InfoPlist.strings */; };
+		EDC327FA16AFB8F1001B11B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC327F916AFB8F1001B11B5 /* main.m */; };
+		EDC327FE16AFB8F1001B11B5 /* HPMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC327FD16AFB8F1001B11B5 /* HPMAppDelegate.m */; };
+		EDC3280116AFB8F1001B11B5 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDC327FF16AFB8F1001B11B5 /* MainStoryboard.storyboard */; };
+		EDC3280416AFB8F1001B11B5 /* HPMMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC3280316AFB8F1001B11B5 /* HPMMainViewController.m */; };
+		EDC3280716AFB8F1001B11B5 /* HPMFlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC3280616AFB8F1001B11B5 /* HPMFlipsideViewController.m */; };
+		EDC3280F16AFB8F1001B11B5 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDC3280E16AFB8F1001B11B5 /* SenTestingKit.framework */; };
+		EDC3281016AFB8F1001B11B5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDC327ED16AFB8F1001B11B5 /* UIKit.framework */; };
+		EDC3281116AFB8F1001B11B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDC327EF16AFB8F1001B11B5 /* Foundation.framework */; };
+		EDC3281916AFB8F1001B11B5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EDC3281716AFB8F1001B11B5 /* InfoPlist.strings */; };
+		EDC3281C16AFB8F1001B11B5 /* LightningDeskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC3281B16AFB8F1001B11B5 /* LightningDeskTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDC3281216AFB8F1001B11B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDC327E016AFB8F0001B11B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDC327E816AFB8F1001B11B5;
+			remoteInfo = LightningDesk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EDC327E916AFB8F1001B11B5 /* LightningDesk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LightningDesk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDC327ED16AFB8F1001B11B5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EDC327EF16AFB8F1001B11B5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EDC327F116AFB8F1001B11B5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EDC327F516AFB8F1001B11B5 /* LightningDesk-Info.plist */ = {isa = PBXFileReference; path = "LightningDesk-Info.plist"; sourceTree = "<group>"; };
+		EDC327F716AFB8F1001B11B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EDC327F916AFB8F1001B11B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EDC327FB16AFB8F1001B11B5 /* LightningDesk-Prefix.pch */ = {isa = PBXFileReference; path = "LightningDesk-Prefix.pch"; sourceTree = "<group>"; };
+		EDC327FC16AFB8F1001B11B5 /* HPMAppDelegate.h */ = {isa = PBXFileReference; path = HPMAppDelegate.h; sourceTree = "<group>"; };
+		EDC327FD16AFB8F1001B11B5 /* HPMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPMAppDelegate.m; sourceTree = "<group>"; };
+		EDC3280016AFB8F1001B11B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		EDC3280216AFB8F1001B11B5 /* HPMMainViewController.h */ = {isa = PBXFileReference; path = HPMMainViewController.h; sourceTree = "<group>"; };
+		EDC3280316AFB8F1001B11B5 /* HPMMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPMMainViewController.m; sourceTree = "<group>"; };
+		EDC3280516AFB8F1001B11B5 /* HPMFlipsideViewController.h */ = {isa = PBXFileReference; path = HPMFlipsideViewController.h; sourceTree = "<group>"; };
+		EDC3280616AFB8F1001B11B5 /* HPMFlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPMFlipsideViewController.m; sourceTree = "<group>"; };
+		EDC3280D16AFB8F1001B11B5 /* LightningDeskTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LightningDeskTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDC3280E16AFB8F1001B11B5 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		EDC3281616AFB8F1001B11B5 /* LightningDeskTests-Info.plist */ = {isa = PBXFileReference; path = "LightningDeskTests-Info.plist"; sourceTree = "<group>"; };
+		EDC3281816AFB8F1001B11B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EDC3281A16AFB8F1001B11B5 /* LightningDeskTests.h */ = {isa = PBXFileReference; path = LightningDeskTests.h; sourceTree = "<group>"; };
+		EDC3281B16AFB8F1001B11B5 /* LightningDeskTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LightningDeskTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDC327E616AFB8F1001B11B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC327EE16AFB8F1001B11B5 /* UIKit.framework in Frameworks */,
+				EDC327F016AFB8F1001B11B5 /* Foundation.framework in Frameworks */,
+				EDC327F216AFB8F1001B11B5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDC3280916AFB8F1001B11B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC3280F16AFB8F1001B11B5 /* SenTestingKit.framework in Frameworks */,
+				EDC3281016AFB8F1001B11B5 /* UIKit.framework in Frameworks */,
+				EDC3281116AFB8F1001B11B5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDC327DE16AFB8F0001B11B5 = {
+			isa = PBXGroup;
+			children = (
+				EDC327F316AFB8F1001B11B5 /* LightningDesk */,
+				EDC3281416AFB8F1001B11B5 /* LightningDeskTests */,
+				EDC327EC16AFB8F1001B11B5 /* Frameworks */,
+				EDC327EA16AFB8F1001B11B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDC327EA16AFB8F1001B11B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDC327E916AFB8F1001B11B5 /* LightningDesk.app */,
+				EDC3280D16AFB8F1001B11B5 /* LightningDeskTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDC327EC16AFB8F1001B11B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDC327ED16AFB8F1001B11B5 /* UIKit.framework */,
+				EDC327EF16AFB8F1001B11B5 /* Foundation.framework */,
+				EDC327F116AFB8F1001B11B5 /* CoreGraphics.framework */,
+				EDC3280E16AFB8F1001B11B5 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EDC327F316AFB8F1001B11B5 /* LightningDesk */ = {
+			isa = PBXGroup;
+			children = (
+				EDC327FC16AFB8F1001B11B5 /* HPMAppDelegate.h */,
+				EDC327FD16AFB8F1001B11B5 /* HPMAppDelegate.m */,
+				EDC327FF16AFB8F1001B11B5 /* MainStoryboard.storyboard */,
+				EDC3280216AFB8F1001B11B5 /* HPMMainViewController.h */,
+				EDC3280316AFB8F1001B11B5 /* HPMMainViewController.m */,
+				EDC3280516AFB8F1001B11B5 /* HPMFlipsideViewController.h */,
+				EDC3280616AFB8F1001B11B5 /* HPMFlipsideViewController.m */,
+				EDC327F416AFB8F1001B11B5 /* Supporting Files */,
+			);
+			path = LightningDesk;
+			sourceTree = "<group>";
+		};
+		EDC327F416AFB8F1001B11B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDC327F516AFB8F1001B11B5 /* LightningDesk-Info.plist */,
+				EDC327F616AFB8F1001B11B5 /* InfoPlist.strings */,
+				EDC327F916AFB8F1001B11B5 /* main.m */,
+				EDC327FB16AFB8F1001B11B5 /* LightningDesk-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EDC3281416AFB8F1001B11B5 /* LightningDeskTests */ = {
+			isa = PBXGroup;
+			children = (
+				EDC3281A16AFB8F1001B11B5 /* LightningDeskTests.h */,
+				EDC3281B16AFB8F1001B11B5 /* LightningDeskTests.m */,
+				EDC3281516AFB8F1001B11B5 /* Supporting Files */,
+			);
+			path = LightningDeskTests;
+			sourceTree = "<group>";
+		};
+		EDC3281516AFB8F1001B11B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDC3281616AFB8F1001B11B5 /* LightningDeskTests-Info.plist */,
+				EDC3281716AFB8F1001B11B5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDC327E816AFB8F1001B11B5 /* LightningDesk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDC3281F16AFB8F1001B11B5 /* Build configuration list for PBXNativeTarget "LightningDesk" */;
+			buildPhases = (
+				EDC327E516AFB8F1001B11B5 /* Sources */,
+				EDC327E616AFB8F1001B11B5 /* Frameworks */,
+				EDC327E716AFB8F1001B11B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LightningDesk;
+			productName = LightningDesk;
+			productReference = EDC327E916AFB8F1001B11B5 /* LightningDesk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDC3280C16AFB8F1001B11B5 /* LightningDeskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDC3282216AFB8F1001B11B5 /* Build configuration list for PBXNativeTarget "LightningDeskTests" */;
+			buildPhases = (
+				EDC3280816AFB8F1001B11B5 /* Sources */,
+				EDC3280916AFB8F1001B11B5 /* Frameworks */,
+				EDC3280A16AFB8F1001B11B5 /* Resources */,
+				EDC3280B16AFB8F1001B11B5 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDC3281316AFB8F1001B11B5 /* PBXTargetDependency */,
+			);
+			name = LightningDeskTests;
+			productName = LightningDeskTests;
+			productReference = EDC3280D16AFB8F1001B11B5 /* LightningDeskTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDC327E016AFB8F0001B11B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "IdeaSynthesis LLC";
+			};
+			buildConfigurationList = EDC327E316AFB8F0001B11B5 /* Build configuration list for PBXProject "LightningDesk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EDC327DE16AFB8F0001B11B5;
+			productRefGroup = EDC327EA16AFB8F1001B11B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDC327E816AFB8F1001B11B5 /* LightningDesk */,
+				EDC3280C16AFB8F1001B11B5 /* LightningDeskTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDC327E716AFB8F1001B11B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC327F816AFB8F1001B11B5 /* InfoPlist.strings in Resources */,
+				EDC3280116AFB8F1001B11B5 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDC3280A16AFB8F1001B11B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC3281916AFB8F1001B11B5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EDC3280B16AFB8F1001B11B5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDC327E516AFB8F1001B11B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC327FA16AFB8F1001B11B5 /* main.m in Sources */,
+				EDC327FE16AFB8F1001B11B5 /* HPMAppDelegate.m in Sources */,
+				EDC3280416AFB8F1001B11B5 /* HPMMainViewController.m in Sources */,
+				EDC3280716AFB8F1001B11B5 /* HPMFlipsideViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDC3280816AFB8F1001B11B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC3281C16AFB8F1001B11B5 /* LightningDeskTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDC3281316AFB8F1001B11B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDC327E816AFB8F1001B11B5 /* LightningDesk */;
+			targetProxy = EDC3281216AFB8F1001B11B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EDC327F616AFB8F1001B11B5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDC327F716AFB8F1001B11B5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EDC327FF16AFB8F1001B11B5 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDC3280016AFB8F1001B11B5 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		EDC3281716AFB8F1001B11B5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDC3281816AFB8F1001B11B5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDC3281D16AFB8F1001B11B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EDC3281E16AFB8F1001B11B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDC3282016AFB8F1001B11B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LightningDesk/LightningDesk-Prefix.pch";
+				INFOPLIST_FILE = "LightningDesk/LightningDesk-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EDC3282116AFB8F1001B11B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LightningDesk/LightningDesk-Prefix.pch";
+				INFOPLIST_FILE = "LightningDesk/LightningDesk-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EDC3282316AFB8F1001B11B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LightningDesk.app/LightningDesk";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LightningDesk/LightningDesk-Prefix.pch";
+				INFOPLIST_FILE = "LightningDeskTests/LightningDeskTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		EDC3282416AFB8F1001B11B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LightningDesk.app/LightningDesk";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LightningDesk/LightningDesk-Prefix.pch";
+				INFOPLIST_FILE = "LightningDeskTests/LightningDeskTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDC327E316AFB8F0001B11B5 /* Build configuration list for PBXProject "LightningDesk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDC3281D16AFB8F1001B11B5 /* Debug */,
+				EDC3281E16AFB8F1001B11B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDC3281F16AFB8F1001B11B5 /* Build configuration list for PBXNativeTarget "LightningDesk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDC3282016AFB8F1001B11B5 /* Debug */,
+				EDC3282116AFB8F1001B11B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EDC3282216AFB8F1001B11B5 /* Build configuration list for PBXNativeTarget "LightningDeskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDC3282316AFB8F1001B11B5 /* Debug */,
+				EDC3282416AFB8F1001B11B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDC327E016AFB8F0001B11B5 /* Project object */;
+}
