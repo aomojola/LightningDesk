@@ -38,22 +38,22 @@
 		EDC327ED16AFB8F1001B11B5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EDC327EF16AFB8F1001B11B5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EDC327F116AFB8F1001B11B5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		EDC327F516AFB8F1001B11B5 /* LightningDesk-Info.plist */ = {isa = PBXFileReference; path = "LightningDesk-Info.plist"; sourceTree = "<group>"; };
+		EDC327F516AFB8F1001B11B5 /* LightningDesk-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LightningDesk-Info.plist"; sourceTree = "<group>"; };
 		EDC327F716AFB8F1001B11B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EDC327F916AFB8F1001B11B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EDC327FB16AFB8F1001B11B5 /* LightningDesk-Prefix.pch */ = {isa = PBXFileReference; path = "LightningDesk-Prefix.pch"; sourceTree = "<group>"; };
-		EDC327FC16AFB8F1001B11B5 /* HPMAppDelegate.h */ = {isa = PBXFileReference; path = HPMAppDelegate.h; sourceTree = "<group>"; };
+		EDC327FB16AFB8F1001B11B5 /* LightningDesk-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LightningDesk-Prefix.pch"; sourceTree = "<group>"; };
+		EDC327FC16AFB8F1001B11B5 /* HPMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HPMAppDelegate.h; sourceTree = "<group>"; };
 		EDC327FD16AFB8F1001B11B5 /* HPMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPMAppDelegate.m; sourceTree = "<group>"; };
 		EDC3280016AFB8F1001B11B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		EDC3280216AFB8F1001B11B5 /* HPMMainViewController.h */ = {isa = PBXFileReference; path = HPMMainViewController.h; sourceTree = "<group>"; };
+		EDC3280216AFB8F1001B11B5 /* HPMMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HPMMainViewController.h; sourceTree = "<group>"; };
 		EDC3280316AFB8F1001B11B5 /* HPMMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPMMainViewController.m; sourceTree = "<group>"; };
-		EDC3280516AFB8F1001B11B5 /* HPMFlipsideViewController.h */ = {isa = PBXFileReference; path = HPMFlipsideViewController.h; sourceTree = "<group>"; };
+		EDC3280516AFB8F1001B11B5 /* HPMFlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HPMFlipsideViewController.h; sourceTree = "<group>"; };
 		EDC3280616AFB8F1001B11B5 /* HPMFlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPMFlipsideViewController.m; sourceTree = "<group>"; };
 		EDC3280D16AFB8F1001B11B5 /* LightningDeskTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LightningDeskTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDC3280E16AFB8F1001B11B5 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		EDC3281616AFB8F1001B11B5 /* LightningDeskTests-Info.plist */ = {isa = PBXFileReference; path = "LightningDeskTests-Info.plist"; sourceTree = "<group>"; };
+		EDC3281616AFB8F1001B11B5 /* LightningDeskTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LightningDeskTests-Info.plist"; sourceTree = "<group>"; };
 		EDC3281816AFB8F1001B11B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		EDC3281A16AFB8F1001B11B5 /* LightningDeskTests.h */ = {isa = PBXFileReference; path = LightningDeskTests.h; sourceTree = "<group>"; };
+		EDC3281A16AFB8F1001B11B5 /* LightningDeskTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LightningDeskTests.h; sourceTree = "<group>"; };
 		EDC3281B16AFB8F1001B11B5 /* LightningDeskTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LightningDeskTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
