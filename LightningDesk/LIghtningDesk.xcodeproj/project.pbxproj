@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDCA020C16BDFA830087DF0A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDCA020B16BDFA830087DF0A /* UIKit.framework */; };
+		EDCA020E16BDFA830087DF0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDCA020D16BDFA830087DF0A /* Foundation.framework */; };
+		EDCA021016BDFA830087DF0A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDCA020F16BDFA830087DF0A /* CoreGraphics.framework */; };
+		EDCA021616BDFA830087DF0A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EDCA021416BDFA830087DF0A /* InfoPlist.strings */; };
+		EDCA021816BDFA830087DF0A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDCA021716BDFA830087DF0A /* main.m */; };
+		EDCA021C16BDFA840087DF0A /* HPMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDCA021B16BDFA840087DF0A /* HPMAppDelegate.m */; };
+		EDCA021F16BDFA840087DF0A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDCA021D16BDFA840087DF0A /* MainStoryboard.storyboard */; };
+		EDCA022216BDFA840087DF0A /* HPMMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDCA022116BDFA840087DF0A /* HPMMasterViewController.m */; };
+		EDCA022516BDFA840087DF0A /* HPMDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDCA022416BDFA840087DF0A /* HPMDetailViewController.m */; };
+		EDCA022D16BDFEB50087DF0A /* BirdSighting.m in Sources */ = {isa = PBXBuildFile; fileRef = EDCA022C16BDFEB50087DF0A /* BirdSighting.m */; };
+		EDCA023016BE00800087DF0A /* BirdSightingDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDCA022F16BE00800087DF0A /* BirdSightingDataController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EDCA020716BDFA830087DF0A /* LIghtningDesk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LIghtningDesk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDCA020B16BDFA830087DF0A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EDCA020D16BDFA830087DF0A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EDCA020F16BDFA830087DF0A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EDCA021316BDFA830087DF0A /* LIghtningDesk-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LIghtningDesk-Info.plist"; sourceTree = "<group>"; };
+		EDCA021516BDFA830087DF0A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EDCA021716BDFA830087DF0A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EDCA021916BDFA830087DF0A /* LIghtningDesk-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LIghtningDesk-Prefix.pch"; sourceTree = "<group>"; };
+		EDCA021A16BDFA830087DF0A /* HPMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HPMAppDelegate.h; sourceTree = "<group>"; };
+		EDCA021B16BDFA840087DF0A /* HPMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPMAppDelegate.m; sourceTree = "<group>"; };
+		EDCA021E16BDFA840087DF0A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		EDCA022016BDFA840087DF0A /* HPMMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HPMMasterViewController.h; sourceTree = "<group>"; };
+		EDCA022116BDFA840087DF0A /* HPMMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPMMasterViewController.m; sourceTree = "<group>"; };
+		EDCA022316BDFA840087DF0A /* HPMDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HPMDetailViewController.h; sourceTree = "<group>"; };
+		EDCA022416BDFA840087DF0A /* HPMDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPMDetailViewController.m; sourceTree = "<group>"; };
+		EDCA022B16BDFEB50087DF0A /* BirdSighting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BirdSighting.h; sourceTree = "<group>"; };
+		EDCA022C16BDFEB50087DF0A /* BirdSighting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BirdSighting.m; sourceTree = "<group>"; };
+		EDCA022E16BE00800087DF0A /* BirdSightingDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BirdSightingDataController.h; sourceTree = "<group>"; };
+		EDCA022F16BE00800087DF0A /* BirdSightingDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BirdSightingDataController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDCA020416BDFA830087DF0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDCA020C16BDFA830087DF0A /* UIKit.framework in Frameworks */,
+				EDCA020E16BDFA830087DF0A /* Foundation.framework in Frameworks */,
+				EDCA021016BDFA830087DF0A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDCA01FC16BDFA830087DF0A = {
+			isa = PBXGroup;
+			children = (
+				EDCA021116BDFA830087DF0A /* LIghtningDesk */,
+				EDCA020A16BDFA830087DF0A /* Frameworks */,
+				EDCA020816BDFA830087DF0A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDCA020816BDFA830087DF0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDCA020716BDFA830087DF0A /* LIghtningDesk.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDCA020A16BDFA830087DF0A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDCA020B16BDFA830087DF0A /* UIKit.framework */,
+				EDCA020D16BDFA830087DF0A /* Foundation.framework */,
+				EDCA020F16BDFA830087DF0A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EDCA021116BDFA830087DF0A /* LIghtningDesk */ = {
+			isa = PBXGroup;
+			children = (
+				EDCA021A16BDFA830087DF0A /* HPMAppDelegate.h */,
+				EDCA021B16BDFA840087DF0A /* HPMAppDelegate.m */,
+				EDCA021D16BDFA840087DF0A /* MainStoryboard.storyboard */,
+				EDCA022B16BDFEB50087DF0A /* BirdSighting.h */,
+				EDCA022C16BDFEB50087DF0A /* BirdSighting.m */,
+				EDCA022E16BE00800087DF0A /* BirdSightingDataController.h */,
+				EDCA022F16BE00800087DF0A /* BirdSightingDataController.m */,
+				EDCA022016BDFA840087DF0A /* HPMMasterViewController.h */,
+				EDCA022116BDFA840087DF0A /* HPMMasterViewController.m */,
+				EDCA022316BDFA840087DF0A /* HPMDetailViewController.h */,
+				EDCA022416BDFA840087DF0A /* HPMDetailViewController.m */,
+				EDCA021216BDFA830087DF0A /* Supporting Files */,
+			);
+			path = LIghtningDesk;
+			sourceTree = "<group>";
+		};
+		EDCA021216BDFA830087DF0A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDCA021316BDFA830087DF0A /* LIghtningDesk-Info.plist */,
+				EDCA021416BDFA830087DF0A /* InfoPlist.strings */,
+				EDCA021716BDFA830087DF0A /* main.m */,
+				EDCA021916BDFA830087DF0A /* LIghtningDesk-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDCA020616BDFA830087DF0A /* LIghtningDesk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDCA022816BDFA840087DF0A /* Build configuration list for PBXNativeTarget "LIghtningDesk" */;
+			buildPhases = (
+				EDCA020316BDFA830087DF0A /* Sources */,
+				EDCA020416BDFA830087DF0A /* Frameworks */,
+				EDCA020516BDFA830087DF0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LIghtningDesk;
+			productName = LIghtningDesk;
+			productReference = EDCA020716BDFA830087DF0A /* LIghtningDesk.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDCA01FE16BDFA830087DF0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "IdeaSynthesis LLC";
+			};
+			buildConfigurationList = EDCA020116BDFA830087DF0A /* Build configuration list for PBXProject "LIghtningDesk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EDCA01FC16BDFA830087DF0A;
+			productRefGroup = EDCA020816BDFA830087DF0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDCA020616BDFA830087DF0A /* LIghtningDesk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDCA020516BDFA830087DF0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDCA021616BDFA830087DF0A /* InfoPlist.strings in Resources */,
+				EDCA021F16BDFA840087DF0A /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDCA020316BDFA830087DF0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDCA021816BDFA830087DF0A /* main.m in Sources */,
+				EDCA021C16BDFA840087DF0A /* HPMAppDelegate.m in Sources */,
+				EDCA022216BDFA840087DF0A /* HPMMasterViewController.m in Sources */,
+				EDCA022516BDFA840087DF0A /* HPMDetailViewController.m in Sources */,
+				EDCA022D16BDFEB50087DF0A /* BirdSighting.m in Sources */,
+				EDCA023016BE00800087DF0A /* BirdSightingDataController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EDCA021416BDFA830087DF0A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDCA021516BDFA830087DF0A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EDCA021D16BDFA840087DF0A /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDCA021E16BDFA840087DF0A /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDCA022616BDFA840087DF0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EDCA022716BDFA840087DF0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDCA022916BDFA840087DF0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LIghtningDesk/LIghtningDesk-Prefix.pch";
+				INFOPLIST_FILE = "LIghtningDesk/LIghtningDesk-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EDCA022A16BDFA840087DF0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LIghtningDesk/LIghtningDesk-Prefix.pch";
+				INFOPLIST_FILE = "LIghtningDesk/LIghtningDesk-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDCA020116BDFA830087DF0A /* Build configuration list for PBXProject "LIghtningDesk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDCA022616BDFA840087DF0A /* Debug */,
+				EDCA022716BDFA840087DF0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDCA022816BDFA840087DF0A /* Build configuration list for PBXNativeTarget "LIghtningDesk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDCA022916BDFA840087DF0A /* Debug */,
+				EDCA022A16BDFA840087DF0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDCA01FE16BDFA830087DF0A /* Project object */;
+}

@@ -1,15 +1,42 @@
 //
-//  HPMMainViewController.m
-//  LightningDesk
+//  HPMDetailViewController.m
+//  LIghtningDesk
 //
-//  Created by Femi Omojola on 1/22/13.
+//  Created by Femi Omojola on 2/2/13.
 //  Copyright (c) 2013 IdeaSynthesis LLC. All rights reserved.
 //
 
-#import "HPMMainViewController.h"
+#import "HPMDetailViewController.h"
 
-@implementation HPMMainViewController
+@interface HPMDetailViewController ()
+- (void)configureView;
+@end
 
+@implementation HPMDetailViewController
+
+@synthesize detailItem = _detailItem;
+@synthesize detailDescriptionLabel = _detailDescriptionLabel;
+
+#pragma mark - Managing the detail item
+
+- (void)setDetailItem:(id)newDetailItem
+{
+    if (_detailItem != newDetailItem) {
+        _detailItem = newDetailItem;
+        
+        // Update the view.
+        [self configureView];
+    }
+}
+
+- (void)configureView
+{
+    // Update the user interface for the detail item.
+
+    if (self.detailItem) {
+        self.detailDescriptionLabel.text = [self.detailItem description];
+    }
+}
 
 - (void)didReceiveMemoryWarning
 {
@@ -23,6 +50,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [self configureView];
 }
 
 - (void)viewDidUnload
@@ -56,20 +84,6 @@
 {
     // Return YES for supported orientations
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
-}
-
-#pragma mark - Flipside View
-
-- (void)flipsideViewControllerDidFinish:(HPMFlipsideViewController *)controller
-{
-    [self dismissModalViewControllerAnimated:YES];
-}
-
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    if ([[segue identifier] isEqualToString:@"showAlternate"]) {
-        [[segue destinationViewController] setDelegate:self];
-    }
 }
 
 @end
